@@ -1,0 +1,42 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Universal Font */
+* {
+    font-family: "Roboto";
+}
+.nav-route a {
+    font-family: "Roboto";
+}
+
+/* Extra Small Screen */
+@media (min-width: 320px) and (max-width: 479px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        margin: 32px auto;
+    }
+    .logo {
+        width: 200px;
+    }
+    .nav-route {
+        display: none;
+    }
+}
+
+/* Small Screen */
+@media (min-width: 480px) and (max-width: 639px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        margin: 32px auto;
+    }
+    .logo {
+        width: 250px;
+    }
+    .nav-route {
+        display: none;
+    }
+}

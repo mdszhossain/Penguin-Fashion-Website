@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin-Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <!-- Header Section -->
-    <header></header>
+    <header>
+        <!-- Nav Section -->
+        <section class="navbar flex justify-between items-center my-8 mx-auto w-11/12">
+            <div class="nav-logo"><img src="./assets/icons/logo.png" alt="Penguin-Fashion-Logo" class="logo sm:w-4/5 md:w-3/5 lg:w-2/5 xl:w-2/5"></div>
+            <ul class="nav-route sm:flex gap-8  xl:flex gap-12">
+                <li><a class="font-medium" href="#">Home</a></li>
+                <li><a class="font-medium" href="#">Product</a></li>
+                <li><a class="font-medium" href="#">About</a></li>
+                <li><a class="font-medium" href="#">Contact</a></li>
+            </ul>
+            <div class="hamburger sm:hidden"><i class="fa-solid fa-bars w-3/4"></i></div>
+        </section>
+    </header>
 
     <!-- Main Section -->
     <main></main>
