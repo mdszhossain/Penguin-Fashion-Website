@@ -12,15 +12,29 @@
     <!-- Header Section -->
     <header>
         <!-- Nav Section -->
-        <section class="navbar flex justify-between items-center my-8 mx-auto w-11/12">
-            <div class="nav-logo"><img src="./assets/icons/logo.png" alt="Penguin-Fashion-Logo" class="logo sm:w-4/5 md:w-3/5 lg:w-2/5 xl:w-2/5"></div>
-            <ul class="nav-route sm:flex gap-8  xl:flex gap-12">
-                <li><a class="font-medium" href="#">Home</a></li>
-                <li><a class="font-medium" href="#">Product</a></li>
-                <li><a class="font-medium" href="#">About</a></li>
-                <li><a class="font-medium" href="#">Contact</a></li>
-            </ul>
-            <div class="hamburger sm:hidden"><i class="fa-solid fa-bars w-3/4"></i></div>
+        <section class="main-nav bg-[#FFFBF0]">
+            <section class="navbar flex justify-between items-center py-8 mx-auto w-11/12 bg-[#FFFBF0]">
+                <div class="nav-logo"><img src="./assets/icons/logo.png" alt="Penguin-Fashion-Logo" class="logo sm:w-4/5 md:w-3/5 lg:w-2/5 xl:w-2/5"></div>
+                <ul class="nav-route flex sm:gap-8  xl:gap-12">
+                    <li><a class="font-medium" href="#">Home</a></li>
+                    <li><a class="font-medium" href="#">Product</a></li>
+                    <li><a class="font-medium" href="#">About</a></li>
+                    <li><a class="font-medium" href="#">Contact</a></li>
+                </ul>
+                <div class="hamburger sm:hidden"><i class="fa-solid fa-bars w-3/4"></i></div>
+            </section>
+        </section>
+
+        <!-- Hero Section -->
+        <section class="main-hero bg-[#FFFBF0]">
+            <section class="hero-section py-10 mx-auto w-11/12 flex items-center justify-between ">
+                <div class="hero-text mx-0">
+                    <h1 class="hero-heading sm:text-5xl md:text-6xl lg:text-7xl text-[#363958] leading-tight "><span class="text-[#FABE4C]">Be the Penguins</span> <br> of Winter</h1>
+                    <p class="hero-description my-2 sm:text-sm md:text-sm lg:text-sm">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                    <button class="buy-now text-[#FFFFFF] rounded-lg py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] my-4"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                </div>
+                <div class="hero-image flex justify-end sm:w-8/12 md:w-6/12 lg:w-5/12"><img src="./assets/images/model.png" class="" alt=""></div>
+            </section>
         </section>
     </header>
 

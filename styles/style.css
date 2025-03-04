@@ -5,38 +5,98 @@
 * {
     font-family: "Roboto";
 }
+
+/* Regular Styles */
 .nav-route a {
     font-family: "Roboto";
 }
+.hero-heading {
+    font-family: "Bebas Neue";
+}
+.hero-heading span {
+    font-family: "Bebas Neue";
+}
+
 
 /* Extra Small Screen */
 @media (min-width: 320px) and (max-width: 479px) {
+    /* Nav Section */
     .navbar {
         display: flex;
         align-items: center;
         width: 85%;
-        margin: 32px auto;
+        margin: 0px auto;
+        padding: 32px 0px;
     }
     .logo {
         width: 200px;
     }
-    .nav-route {
+    .nav-route li {
         display: none;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        width: 85%;
+        margin: 0px auto;
+        flex-direction: column;
+        align-items: start;
+    }
+    .hero-heading {
+        font-size: 3rem;
+    }
+    .hero-description {
+        font-size: 0.80rem;
+    }
+    .buy-now {
+        font-size: 0.85rem;
+        padding: 15px 25px;
+    }
+    .hero-image img {
+        width: 80%;
+        margin: 0px auto;
     }
 }
 
 /* Small Screen */
 @media (min-width: 480px) and (max-width: 639px) {
+    /* Nav Section */
     .navbar {
         display: flex;
         align-items: center;
         width: 85%;
-        margin: 32px auto;
+        margin: 0px auto;
+        padding: 32px 0px;
     }
     .logo {
         width: 250px;
     }
-    .nav-route {
+    .nav-route li {
         display: none;
+    }
+
+    /* Hero Section */
+    .hero-heading {
+        font-size: 2rem;
+    }
+    .hero-description {
+        font-size: 0.85rem;
+    }
+    .buy-now {
+        padding: 15px 25px;
+        font-size: 0.85rem;
+    }
+    .hero-image img {
+        width: 80%;
+    }
+    .hero-section {
+        width: 85%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-image {
+        display: flex;
+        justify-content: end;
     }
 }
