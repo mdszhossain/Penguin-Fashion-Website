@@ -85,6 +85,12 @@
         width: 280px;
         margin: 15px auto;
     }
+    .cart-image img {
+        width: 60%;
+    }
+    .cart-content {
+        width: 100%;
+    }
     .cart-image {
         width: 90%;
     }
@@ -140,12 +146,18 @@
     }
     .jacket-section {
         flex-wrap: wrap;
-        width: 90%;
+        width: 87%;
     }
     .cart {
         height: 390px;
         width: 210px;
         margin: 15px auto;
+    }
+    .cart-content {
+        width: 100%;
+    }
+    .cart-image img {
+        width: 60%;
     }
     .cart-image {
         width: 85%;
