@@ -18,6 +18,11 @@
 }
 .cart {
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 455px;
+    width: 325px;
+}
+.jacket-heading {
+    font-family: "Bebas Neue";
 }
 
 
@@ -60,6 +65,30 @@
         width: 80%;
         margin: 0px auto;
     }
+
+    /* Woman Jacket Section */
+    .jacket-section {
+        flex-direction: column;
+    }
+    .jacket-heading {
+        text-align: center;
+    }
+    .cart-heading {
+        font-size: 1.5rem;
+    }
+    .cart-description {
+        width: 98%;
+        font-size: 0.85rem;
+    }
+    .cart {
+        height: 465px;
+        width: 280px;
+        margin: 15px auto;
+    }
+    .cart-image {
+        width: 90%;
+    }
+
 }
 
 /* Small Screen */
@@ -103,4 +132,36 @@
         display: flex;
         justify-content: end;
     }
+
+    /* Woman Jacket Section */
+    .jacket-heading {
+        width: 83%;
+        font-size: 2rem;
+    }
+    .jacket-section {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .cart {
+        height: 390px;
+        width: 210px;
+        margin: 15px auto;
+    }
+    .cart-image {
+        width: 85%;
+        height: 170px;
+    }
+    .cart-heading {
+        font-size: 1rem;
+    }
+    .cart-description {
+        font-size: 0.85rem;
+    }
+    .cart-price {
+        font-size: 1.25rem;
+    }
+    .buy-now {
+        padding: 10px 12px;
+    }
+
 }
