@@ -25,6 +25,12 @@
     font-family: "Bebas Neue";
 }
 
+/* Last Section */
+.cols {
+    background-color: white;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
 
 
 /* Extra Small Screen */
@@ -93,6 +99,30 @@
     }
     .cart-image {
         width: 90%;
+    }
+
+    /* Last-Section */
+    .last-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .last-image-part {
+        height: 90%;
+        width: 90%
+    }
+    .cols {
+        flex-direction: column;
+        text-align: center;
+    }
+    .col-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .col-description {
+        font-size: 0.85rem;
+    }
+    .last-text-part {
+        width: 100%;
     }
 
 }
@@ -176,4 +206,27 @@
         padding: 10px 12px;
     }
 
+    /* Last-Section */
+    .last-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .last-image-part {
+        height: 90%;
+        width: 90%
+    }
+    .cols {
+        flex-direction: column;
+        text-align: center;
+    }
+    .col-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .col-description {
+        font-size: 0.85rem;
+    }
+    .last-text-part {
+        width: 100%;
+    }
 }
